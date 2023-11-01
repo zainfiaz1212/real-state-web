@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header-li{
+    @apply text-[#333] font-medium text-[16px] hover:text-[#27ae60] cursor-pointer ;
+  }
+  .for{
+   @apply flex flex-col border-r px-4 font-medium space-y-2 text-[17px] outline-none;
+  }
+  .for-il{
+    @apply text-[14px] font-medium;
+  }
+  .spa{
+    @apply text-[18px] font-medium
+  }
+  .for-i{
+    @apply border outline-none text-[14px] border-gray-300 px-2 py-1;
+  }
+}
